@@ -4,11 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>JS-QUIZ-APPLICATION</title>
 </head>
 <body>
-    
-
+    <section>
+        <div class="introduction py-3 bg-white text-center">
+            <div class="container">
+                <h2 class="text-primary display-3 my-4">JavaScript Quiz Application</h2>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="quiz py-4 bg-primary bg-gradient">
+            <div class="container">
+                <h2 class="my-6 text-white">Basic questions about JavaScript</h2>
+                <form class="quiz-form text-light">
+                    <div class="my-6">
+                        <p class="lead font-weight-normal">1. What are the data types in JavaScript ?</p>
+                        <div class="form-check my-4 text-white-50">
+                            <input type="radio" name="question1" value="a" checked>
+                            <label class="form-check-label">References data type</label>
+                        </div>
+                        <div class="form-check my-4 text-white-50">
+                            <input type="radio" name="question1" value="b">
+                            <label class="form-check-label">Primitives data type</label>
+                        </div>
+                        <div class="form-check my-4 text-white-50">
+                            <input type="radio" name="question1" value="c">
+                            <label class="form-check-label">Both</label>
+                        </div>
+                    </div>
+                    <div class="my-6">
+                        <p class="lead font-weight-normal">2. How many type of functions are in JavaScript ?</p>
+                        <div class="form-check my-4 text-white-50">
+                            <input type="radio" name="question2" value="a" checked>
+                            <label class="form-check-label">Two functions</label>
+                        </div>
+                        <div class="form-check my-4 text-white-50">
+                            <input type="radio" name="question2" value="b">
+                            <label class="form-check-label">Four functions</label>
+                        </div>
+                        <div class="form-check my-4 text-white-50">
+                            <input type="radio" name="question2" value="c">
+                            <label class="form-check-label">Three functions</label>
+                        </div>
+                    </div>
+                    <div class="my-6">
+                        <p class="lead font-weight-normal">3. What types of loop you are usually use in JavaScript ?</p>
+                        <div class="form-check my-4 text-white-50">
+                            <input type="radio" name="question3" value="a" checked>
+                            <label class="form-check-label">Else loop</label>
+                        </div>
+                        <div class="form-check my-4 text-white-50">
+                            <input type="radio" name="question3" value="b">
+                            <label class="form-check-label">For loop</label>
+                        </div>
+                        <div class="form-check my-4 text-white-50">
+                            <input type="radio" name="question3" value="c">
+                            <label class="form-check-label">ForEach loop</label>
+                        </div>
+                    </div>
+                    <div class="my-6">
+                        <p class="lead font-weight-normal">4. What is primitive type ?</p>
+                        <div class="form-check my-4 text-white-50">
+                            <input type="radio" name="question4" value="a" checked>
+                            <label class="form-check-label">Array</label>
+                        </div>
+                        <div class="form-check my-4 text-white-50">
+                            <input type="radio" name="question4" value="b">
+                            <label class="form-check-label">Number</label>
+                        </div>
+                        <div class="form-check my-4 text-white-50">
+                            <input type="radio" name="question4" value="c">
+                            <label class="form-check-label">Function</label>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <input type="submit" class="btn btn-light" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
     <script src="app.js"></script>
 </body>
 </html>

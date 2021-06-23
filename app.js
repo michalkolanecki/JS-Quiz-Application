@@ -1,0 +1,1 @@
+const goodAnswers = [c, c, b, b]
